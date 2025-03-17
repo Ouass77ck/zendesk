@@ -37,18 +37,22 @@ Ce projet vise à concevoir un **bureau intelligent** permettant d'optimiser la 
 
 Si PlatformIO n’est pas encore installé :
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install platformio   `
+```
+pip install platformio
+```
 
 ### **2️⃣ Cloner le projet**
 
 ```
-git clone https://github.com/Ouass77ck/zendesk  cd zendesk
+git clone https://github.com/Ouass77ck/zendesk
+cd zendesk
 ``` 
 
 ### **3️⃣ Installer les bibliothèques nécessaires**
 
 ```
-pio lib install "knolleary/PubSubClient"  pio lib install "claws/BH1750"
+pio lib install "knolleary/PubSubClient"
+pio lib install "claws/BH1750"
 ```
 
 ### **4️⃣ Compiler le projet**
